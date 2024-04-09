@@ -1,0 +1,73 @@
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 1.9rem;
+}
+
+h5 {
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+    font-size: 1.01rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+}
+
+
+
+.buttons button {
+    height: 55px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.buttons .button1 {
+    background-color: var(--Strong-Cyan);
+    width: 220px;
+    border: 0px;
+    border-bottom: 3px solid rgba(23, 132, 38, 0.497);
+
+}
+
+.buttons .button2 {
+    background-color: var(--Light-Blue);
+    border: 0px;
+    border-bottom: 3px solid rgba(27, 33, 156, 0.402);
+    margin-bottom: 9rem;
+    width: 220px;
+}
+
+.header1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.header2 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-top: 10rem;
+}
+
+.image2 {
+    margin-top: 4rem;
+}
+
+.logo {
+    width: 50px;
+    height: 16%;
+}
+
+.logos img {
+    width: 130px;
+}
